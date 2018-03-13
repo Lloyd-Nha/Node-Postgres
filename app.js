@@ -349,7 +349,7 @@ app.get('*', routes.notFound);
 
 //listening port
 
-app.listen(8080, function(){
+app.listen(process.env.PORT || 8080, function(){
 console.log("The application is running at localhost:8080");
 });
 
