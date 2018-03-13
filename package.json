@@ -18,6 +18,10 @@
     "pg": "^7.4.1",
     "serve-favicon": "~2.4.5"
   },
+  "repository":{
+  "type": "git"
+    "url": "https://github.com/Lloyd-Nha/Node-Postgres.git"
+  }
   "engines": {
     "node": "8.9.4"
   },
